@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pat's Solitaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="header">
+            <h1>Pat's Solitaire Game</h1>
+            <button id="new-game">New Game</button>
+        </div>
+        
+        <div class="game-area">
+            <div class="top-row">
+                <div class="stock-pile"></div>
+                <div class="waste-pile"></div>
+                <div class="foundations">
+                    <div class="foundation" data-suit="hearts"></div>
+                    <div class="foundation" data-suit="diamonds"></div>
+                    <div class="foundation" data-suit="clubs"></div>
+                    <div class="foundation" data-suit="spades"></div>
+                </div>
+            </div>
+            
+            <div class="tableau">
+                <div class="column" data-column="1"></div>
+                <div class="column" data-column="2"></div>
+                <div class="column" data-column="3"></div>
+                <div class="column" data-column="4"></div>
+                <div class="column" data-column="5"></div>
+                <div class="column" data-column="6"></div>
+                <div class="column" data-column="7"></div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html> 
